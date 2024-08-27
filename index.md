@@ -185,8 +185,7 @@ You cannot bring any device with the ability to communicate with others. In part
 
 + **Unit 3**: Distinction between constrained and unconstrained system. You must know which kind of Lagrange equation applies to each type of system (ordinary or with multipliers).
 
-+ **Unit 4**: You should know how to formulate Lagrange's equation for systems with or without nonconservative forces. How to formulate the generalized force ${\mathbf{F}}{\scriptsize{nc}}^{star}$ (right hand side of Lagrange's equation). Also how to rewrite Lagrange's equation in the standard form $\mathbf{M}·\mathbf{\ddot{q}} + \mathbf{C}·\mathbf{\dot{q}} + \mathbf{G} = 
-{\mathbf{F}}{\scriptsize{nc}}^{star}$ and how to convert this equation into a 1st order ODE (to have it prepared to solve initial value problems numerically).
++ **Unit 4**: You should know how to formulate Lagrange's equation for systems with or without nonconservative forces. How to formulate the generalized force F_nc^* (right hand side of Lagrange's equation). Also how to rewrite Lagrange's equation in the standard form M·qdd + C·qd + G = F_nc^* and how to convert this equation into a 1st order ODE (to have it prepared to solve initial value problems).
 
 + **Lab practices:** all concepts of the practices may be subject to evaluation, but a computer will not be needed. I will not ask you to implement any Matlab program.
 
@@ -194,105 +193,36 @@ You cannot bring any device with the ability to communicate with others. In part
 Content
 
 ## Bibliography
-Content
 
-# Markdown examples
+### On rigid body mechanics
 
-To produce separate lines, end the preceding line with two spaces:
+A helpful web is:
 
-Coordinator: Caius Iulius Caesar  
-Instructor: Caius Ludovicus
+* https://mec.etseib.upc.edu (Catalan version)
+* https://mec.etseib.upc.edu/en (English version)
 
-## Formulae in latex syntax
+The course books of reference are:
 
-This is a simple equation:
+* J. Agulló i Batlle, A. Barjau Condomines, [Rigid body kinematics](https://discovery.upc.edu/discovery/fulldisplay?docid=alma991001807209706711&context=L&vid=34CSUC_UPC:VU1&lang=ca&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,rigid%20body%20kinematics), Cambridge University Press, 2020.
 
-$$E=mc^2$$
+* J. Agulló i Batlle, A. Barjau Condomines, [Rigid body Dynamics](https://discovery.upc.edu/discovery/fulldisplay?docid=alma991005056379406711&context=L&vid=34CSUC_UPC:VU1&lang=ca&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,rigid%20body%20dynamics&offset=0), Cambridge University Press, 2022.
 
-A more complex one:
+Catalan versions of these books are:
 
-$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$
+* J. Agulló i Batlle, [Mecànica de la partícula i del sòlid rígid](https://drive.google.com/file/d/1uPpVqWN7lk8mjyxJLJoOftuXIhwUzYuK/view), Publicacions OK punt, 2002.
 
-A famous one:
+* J. Agulló i Batlle, [Introducció a la mecánica analítica, percussiva i vibratòria](https://drive.google.com/file/d/0B8D7-40pC_acVUxUMlNzZ21FckU/view?resourcekey=0-gN4xCz7gEEu1Yo0uAiZuPA), Publicacions OK punt, 1998. Link.
 
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+Further material is available in [Prof. Agulló's page](https://www.agullobatlle.cat/activitat-docent), including Spanish versions of the books and collections of solved exercises.
 
-Inline equations like $E=mc^2$ use single dollar delimiters.
+### On Matlab
 
-## Lists ##
+An excellent book introducing Matlab is Higham:
 
-Here's a bulleted list:
+* D. J. Higham and N. J. Higham. [Matlab Guide]() (3rd edition). SIAM 2017.
 
-* Theory 
-* Exercises 
-* Lab
-* Exams
+A [MATLAB cheat sheet](https://drive.google.com/file/d/1asNkwxljhMEJbTn1l7ZfwfFqIns37jPN/view?usp=sharing) from MIT.
 
-A numerated list:
-
-1. Theory 
-2. Exercises
-
-## Links ##
-
-[Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-Explicit URL link: <https://bitbucket.org/tutorials/markdowndemo>
-
-## Blocks ##
-
-A blockquote:
-
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+[Trick: expand all or collapse all in Matlab file.](https://www.mathworks.com/help/matlab/matlab_prog/edit-and-format-code.html#:~:text=To%20expand%20or%20collapse%20all,%2C%20(comma)%20keyboard%20shortcuts)
 
 
-A code block delimited with 4 spaces:
-
-    Hello, I'm a code block. I must start with 4 spaces, or start and end with ```
-
-A code block delimited with with ```
-
-```
-def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 		
-```
-
-## Tables ##
-
-Common mardown interpreters will understand the HTML syntax:
-
-<table>
-<thead>
-<tr>
-  <th>First Header</th>
-  <th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td>Content Cell</td>
-  <td>Content Cell</td>
-</tr>
-<tr>
-  <td>Content Cell</td>
-  <td>Content Cell</td>
-</tr>
-</tbody>
-</table>
-
-Bitbucket only understands the simple markdown syntax:
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-
-Github allows more ellaborate tables like:
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |

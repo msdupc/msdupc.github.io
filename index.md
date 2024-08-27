@@ -190,7 +190,11 @@ You cannot bring any device with the ability to communicate with others. In part
 + **Lab practices:** all concepts of the practices may be subject to evaluation, but a computer will not be needed. I will not ask you to implement any Matlab program.
 
 ## Help
-Content
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 ## Bibliography
 

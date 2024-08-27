@@ -1,7 +1,8 @@
 # msdupc.github.io
-Repo of the web of the course "Multibody System Dynamics" (UPC)
 
-Currently managed by [Lluís Ros](https://github.com/lluisros), Department of Mechanical Engineering (UPC)
+Web of the course "Multibody System Dynamics" (UPC)
+
+Managed by [Lluís Ros](https://github.com/lluisros), Department of Mechanical Engineering (UPC)
 
 Helpful links:
 

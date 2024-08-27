@@ -185,7 +185,7 @@ You cannot bring any device with the ability to communicate with others. In part
 
 + **Unit 3**: Distinction between constrained and unconstrained system. You must know which kind of Lagrange equation applies to each type of system (ordinary or with multipliers).
 
-**Unit 4**: You should know how to formulate Lagrange's equation for systems with or without nonconservative forces. How to formulate the generalized force $`\mathbf{F}_{nc}^{star}`$ (right hand side of Lagrange's equation). Also how to rewrite Lagrange's equation in the standard form $`\mathbf{M}·\mathbf{\ddot{q}} + \mathbf{C}·\mathbf{\dot{q}} + \mathbf{G} = 
++ **Unit 4**: You should know how to formulate Lagrange's equation for systems with or without nonconservative forces. How to formulate the generalized force $\mathbf{F}_{nc}^{star}$ (right hand side of Lagrange's equation). Also how to rewrite Lagrange's equation in the standard form $`\mathbf{M}·\mathbf{\ddot{q}} + \mathbf{C}·\mathbf{\dot{q}} + \mathbf{G} = 
 \mathbf{F}_{nc}^{star}`$ and how to convert this equation into a 1st order ODE (to have it prepared to solve initial value problems numerically).
 
 + **Lab practices:** all concepts of the practices may be subject to evaluation, but a computer will not be needed. I will not ask you to implement any Matlab program.

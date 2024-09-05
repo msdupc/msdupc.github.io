@@ -2,15 +2,17 @@
 
 # Multibody System Dynamics #
 
+Course edition: 2023 - 2024
+
 [Master's Degree in Mechanical Engineering](https://eseiaat.upc.edu/ca/estudis/estudis-en-enginyeries-industrials/master-universitari-recerca-enginyeria-mecanica)  
 [Mechanical Engineering Department](https://em.upc.edu/ca), [UPC-BarcelonaTech](http://www.upc.edu)
 
 ![From left to right: The Atlas robot from Boston Dynamics, an America's Cup yacht, the Perseverance robot landing on Mars, and Starship leaving the Earth.](images/top_banner.png)
 
+This course explores the modelling and simulation of multibody systems composed of rigid bodies. On completion of the course, students should be able to model a multibody system and perform kinematic and dynamic analyses by means of computational simulation methods. The course also emphasizes connections to control theory by means of lab exercises that guide students from building a system's dynamic model to designing a control law to track a given trajectory.
 ## Table of Contents
 
 + [Course data](#course-data)  
-+ [Objective](#objective)  
 + [Methodology](#methodology)  
 + [Grading](#grading)  
 + [Calendar](#calendar)  
@@ -40,11 +42,11 @@
     3.
 + **Teaching language:** 
     Catalan (Spanish or English if needed). 
-+ **Instructors:**
-    [Rosa Pàmies-Vilà](https://scholar.google.es/citations?user=76A5wa0AAAAJ&hl=ca) (coordinator) and [Lluís Ros](http://www.iri.upc.edu/people/ros).
-+ **Previous instructors**: 
++ **Teachers:**
+    [Lluís Ros](http://www.iri.upc.edu/people/ros) (instructor) and [Rosa Pàmies-Vilà](https://scholar.google.es/citations?user=76A5wa0AAAAJ&hl=ca) (coordinator).
++ **Previous teachers:** 
     Albert Peiret, Josep M. Font.
-+ **Classroom**
++ **Classroom:**
     The last two sessions will be in H-0.1. Previously we met in G.1 for theory sessions ([how to get there](Web/way_to_G1.pdf)) and in Pavelló E, upper floor for lab sessions. 
 + **Schedule:** 
     Wednesday 17:00 - 19:00.
@@ -53,9 +55,6 @@
 + **Consultation hours:** 
     Each Wednesday after class, but please email the teacher to arrange them beforehand.
 
-## Objective
-
-This course explores the modelling and simulation of multibody systems composed of rigid bodies. On completion of the course, students should be able to model a multibody system and perform kinematic and dynamic analyses by means of computational simulation methods. The course also emphasizes connections to control theory by means of lab exercises that guide students from building a system's dynamic model to designing a control law to track a given trajectory.
 
 ## Methodology
 
@@ -114,20 +113,23 @@ For those needing more background on numerical methods to solve ODEs you can rea
 
 ### U3 - Introduction to multibody system kinematics
 
-+ [Notes]([https://drive.google.com/file/d/1-kVIUoQavpVoM8O6r6OmTSCve1jEzA5K/view?usp=sharing)
++ [Notes](https://drive.google.com/file/d/1-kVIUoQavpVoM8O6r6OmTSCve1jEzA5K/view?usp=sharing)
 
 ### U4 - Lagrange equations
 
 + [Notes](https://drive.google.com/file/d/1-g-H9_PerbZn2hCBvFlLY1nkIdsDvRUL/view?usp=sharing)
 + [Exercises](https://drive.google.com/file/d/1-ueQJqWUp_SU5EmURT5r0KMLCJ7h3GgT/view?usp=sharing)
++ [Exercise solutions](https://drive.google.com/file/d/1K57mBQitvGC0WljCDgqERO8rYKuXGxLl/view?usp=sharing)
 
 ## Lab assignments
 
-In each lab practice we provide you with the Latex source of the assignment as a zip file. This facilitates the preparation of your lab report using [Overleaf](http://www.overleaf.com) if you want. Just go to `http://www.overleaf.com > "New project" > "Upload project"` and drag and drop your zip file there!
+In each lab practice we provide you with the Latex source of the assignment as a zip file. This facilitates the preparation of your lab report using [Overleaf](http://www.overleaf.com) if you want. Just go to 
+
+    http://www.overleaf.com > "New project" > "Upload project"
+    
+and drag and drop your zip file there!
 
 ### Lab 1: Simulation of a driven pendulum
-
-Here are the practice assignment and its files:
 
 + [Assignment and files](https://drive.google.com/drive/folders/1YFzyJ-1Y0UuMf3V7O2sOcT2KzeOoNMh3?usp=sharing).
 
@@ -137,8 +139,6 @@ Preparation for this practice: Study the theory of Unit 0 before attempting to s
 + [Introduction to the Matlab debugger](https://youtu.be/rp2CoVkxP5U)
 
 ### Lab 2: Simulation of an acrobot
-
-Here are the practice assignment and its files:
 
 + [Assignment and files](https://drive.google.com/drive/folders/1YP_XIk5oGVZSqWlIuug6nQAVaP8QUOWo?usp=sharing)
 
@@ -162,7 +162,7 @@ Curiosities: motivated by a question by Weike Liao, here's an [animation that sh
 
 The final exam took place on Friday 14 June 15:00-18:30 in room L-LS.4.
 
-Here's the [exam](https://drive.google.com/file/d/1OVS7GM2BN5OO4-kB1tpdByNMwYSKyLHW/view?usp=sharing) (in Catalan and Spanish) and its [solution](https://drive.google.com/file/d/1ORVI_VK8NwuScKl76cEPGjkqVTYTNQFY/view?usp=sharing).
+Here's the [exam](https://drive.google.com/file/d/1OVS7GM2BN5OO4-kB1tpdByNMwYSKyLHW/view?usp=sharing) (in Catalan and Spanish) and its [solution](https://drive.google.com/file/d/1ORVI_VK8NwuScKl76cEPGjkqVTYTNQFY/view?usp=sharing) (in English).
 
 ### What you can/cannot bring
 
@@ -191,30 +191,58 @@ You cannot bring any device with the ability to communicate with others. In part
 
 ## Help
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+### Vocabulary table
+
+We list the concepts in order of appearance in the course:
+
+| English      | Catalan       | Spanish         |
+| :---         | :---          | :---            |
+| Revolute joint | Enllaç de revolució | Enlace de revolución o articulación de rotación | 
+| Reference frame | Referència | Referencia |
+| Coordinate system | Sistema de coordenades | Sistema de coordenadas |
+| Trihedral | Tríedre | Trihedro |
+| Pose (position+orientation)| Posa (posició+orientació)| Pose (posición+orientación) |
+| Skew symmetric matrix | Matriu antisimètrica | Matriz antisimétrica |
+| Transportation velocity | Velocitat d'arrossegament | Velocidad de arrastre |
+| Transportation acceleration | Acceleració d'arrossegament | Aceleración de arrastre |
+| Sliding | Lliscament | Deslizamiento |
+| Instantaneous axis of rotation | Eix instantani de rotació | Eje instantáneo de rotación |
+| Torque (or couple) | Parell | Par |
+| Moment | Moment | Momento |
+| Constraint force | Força d'enllaç | Fuerza de enlace |
+| Wrench | Torsor de forces | Torsor de fuerzas |
+| Spring | Molla | Muelle |
+| Damper | Amortidor | Amortiguador |
+| Linear momentum | Quantitat de moviment | Cantidad de movimiento |
+| Angular momentum | Moment cinètic (o angular) | Momento cinético (o angular) |
+
+### How to install MATLAB
+
+If you have specific instructions given to you by UPC, please follow them.
+
+Otherwise, try the UPC instructions in [this page](https://drive.google.com/file/d/1b5r1ywgKq_68sCblAXKI5Wj7fIqg4mc5/view?usp=sharing). The web portal they refer to is [this one](https://www.mathworks.com/academia/tah-portal/politecnica-de-catalunya-31113606.html).
+
+You will need the login credentials of the Mathworks account associated with your university license. In principle, they coincide with those you use to access the UPC intranet.
+
+We recommend to install all toolboxes available.
 
 ## Bibliography
 
 ### On rigid body mechanics
 
-A helpful web is:
+A helpful web is (connection is safe):
 
 * https://mec.etseib.upc.edu (Catalan version)
 * https://mec.etseib.upc.edu/en (English version)
 
 The course books of reference are:
 
-* J. Agulló i Batlle, A. Barjau Condomines, [Rigid body kinematics](https://discovery.upc.edu/discovery/fulldisplay?docid=alma991001807209706711&context=L&vid=34CSUC_UPC:VU1&lang=ca&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,rigid%20body%20kinematics), Cambridge University Press, 2020.
-
+* J. Agulló i Batlle, A. Barjau Condomines, [Rigid body kinematics](https://discovery.upc.edu/discovery/fulldisplay?docid=alma991001807209706711&context=L&vid=34CSUC_UPC:VU1&lang=ca&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,rigid%20body%20kinematics), Cambridge University Press, 2020.  
 * J. Agulló i Batlle, A. Barjau Condomines, [Rigid body Dynamics](https://discovery.upc.edu/discovery/fulldisplay?docid=alma991005056379406711&context=L&vid=34CSUC_UPC:VU1&lang=ca&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,rigid%20body%20dynamics&offset=0), Cambridge University Press, 2022.
 
 Catalan versions of these books are:
 
-* J. Agulló i Batlle, [Mecànica de la partícula i del sòlid rígid](https://drive.google.com/file/d/1uPpVqWN7lk8mjyxJLJoOftuXIhwUzYuK/view), Publicacions OK punt, 2002.
-
+* J. Agulló i Batlle, [Mecànica de la partícula i del sòlid rígid](https://drive.google.com/file/d/1uPpVqWN7lk8mjyxJLJoOftuXIhwUzYuK/view), Publicacions OK punt, 2002.  
 * J. Agulló i Batlle, [Introducció a la mecánica analítica, percussiva i vibratòria](https://drive.google.com/file/d/0B8D7-40pC_acVUxUMlNzZ21FckU/view?resourcekey=0-gN4xCz7gEEu1Yo0uAiZuPA), Publicacions OK punt, 1998. Link.
 
 Further material is available in [Prof. Agulló's page](https://www.agullobatlle.cat/activitat-docent), including Spanish versions of the books and collections of solved exercises.
@@ -223,7 +251,7 @@ Further material is available in [Prof. Agulló's page](https://www.agullobatlle
 
 An excellent book introducing Matlab is Higham:
 
-* D. J. Higham and N. J. Higham. [Matlab Guide]() (3rd edition). SIAM 2017.
+* D. J. Higham and N. J. Higham. [Matlab Guide](https://books.google.co.vi/books?id=zM_ZDQAAQBAJ&printsec=copyright#v=onepage&q&f=false) (3rd edition). SIAM 2017.
 
 A [MATLAB cheat sheet](https://drive.google.com/file/d/1asNkwxljhMEJbTn1l7ZfwfFqIns37jPN/view?usp=sharing) from MIT.
 

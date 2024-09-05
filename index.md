@@ -187,7 +187,7 @@ You cannot bring any device with the ability to communicate with others. In part
 
 + **Unit 4**: You should know how to formulate Lagrange's equation for systems with or without nonconservative forces. How to formulate the generalized force F_nc^* (right hand side of Lagrange's equation). Also how to rewrite Lagrange's equation in the standard form M·qdd + C·qd + G = F_nc^* and how to convert this equation into a 1st order ODE (to have it prepared to solve initial value problems).
 
-+ **Lab practices:** all concepts of the practices may be subject to evaluation, but a computer will not be needed. I will not ask you to implement any Matlab program.
++ **Lab practices:** all concepts of the practices may be subject to evaluation, but a computer will not be needed. We will not ask you to implement any Matlab program.
 
 ## Help
 

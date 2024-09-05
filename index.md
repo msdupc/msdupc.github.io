@@ -7,7 +7,6 @@
 
 ![From left to right: The Atlas robot from Boston Dynamics, an America's Cup yacht, the Perseverance robot landing on Mars, and Starship leaving the Earth.](images/top_banner.png)
 
-
 ## Table of Contents
 
 + [Course data](#course-data)  

@@ -2,6 +2,8 @@
 
 Web of the course "Multibody System Dynamics" (UPC)
 
+Web URL: https://msdupc.github.io
+
 Managed by [Lluís Ros](https://github.com/lluisros), Department of Mechanical Engineering (UPC)
 
 Helpful links:

@@ -232,8 +232,8 @@ We recommend to install all toolboxes available.
 
 A helpful web is (connection is safe):
 
-* https://mec.etseib.upc.edu (Catalan version)
-* https://mec.etseib.upc.edu/en (English version)
+* [https://mec.etseib.upc.edu](https://mec.etseib.upc.edu) (Catalan version)
+* [https://mec.etseib.upc.edu/en](https://mec.etseib.upc.edu/en) (English version)
 
 The course books of reference are:
 

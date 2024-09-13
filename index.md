@@ -47,7 +47,7 @@ This course explores the modelling and simulation of multibody systems composed 
 + **Previous teachers:** 
     Albert Peiret, Josep M. Font.
 + **Classroom:**
-    The last two sessions will be in H-0.1. Previously we met in G.1 for theory sessions ([how to get there](Web/way_to_G1.pdf)) and in Pavelló E, upper floor for lab sessions. 
+    The last two sessions will be in H-0.1. Previously we met in G.1 for theory sessions ([how to get there](images/way_to_G1.pdf)) and in Pavelló E, upper floor for lab sessions. 
 + **Schedule:** 
     Wednesday 17:00 - 19:00.
 + **Start date:** 
